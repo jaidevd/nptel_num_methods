@@ -16,4 +16,5 @@ int main()
         printf("%p %p %d %d\n", &j, &j[i], *j, num[i]);
         j++;
     }
+    return 0;
 }
