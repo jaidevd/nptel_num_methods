@@ -13,7 +13,7 @@ int main()
     int i, *j;
     j = num;
     for (i=0;i<5;i++){
-        printf("%lu %lu %d %d\n", &j, &j[i], *j, num[i]);
+        printf("%p %p %d %d\n", &j, &j[i], *j, num[i]);
         j++;
     }
 }
